@@ -1,18 +1,40 @@
 body {
   font-family: sans-serif;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 2rem;
+  background: #f0f0f0;
+  padding: 40px;
 }
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+}
+
 form {
-  display: flex;
-  gap: 10px;
+  margin-bottom: 20px;
 }
+
+form input, form button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+}
+
 ul {
   list-style: none;
   padding: 0;
 }
+
 li {
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
+  background: #f9f9f9;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+}
+
+button.excluir, button.concluir {
+  margin-left: 10px;
 }

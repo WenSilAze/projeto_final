@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Gerenciador de Tarefas</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Minhas Tarefas</h1>
-  <form id="formTarefa">
-    <input type="text" id="descricao" placeholder="Descrição da tarefa" required>
-    <button type="submit">Adicionar</button>
-  </form>
-  <ul id="listaTarefas"></ul>
+  <div class="container">
+    <h1>Tarefas</h1>
+
+    <form id="form-tarefa">
+      <input type="text" id="descricao" placeholder="Descrição da tarefa" required />
+      <input type="datetime-local" id="prazo" />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista-tarefas"></ul>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
+
