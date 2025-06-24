@@ -2,9 +2,9 @@
 
 Integrantes do grupo:
 
-Wendel Silva
-Gustavo Pereira
-Matheus Tinel
+Wendel Silva, 
+Gustavo Pereira, 
+Matheus Tinel, 
 Matheus Alves
 
 ---
